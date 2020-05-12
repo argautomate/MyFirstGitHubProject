@@ -39,5 +39,6 @@ public class LoginTest {
     public void tearDown()
     {
         driver.quit();
+        //This will close all browser windows opened in this session
     }
 }
