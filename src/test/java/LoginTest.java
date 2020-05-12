@@ -32,7 +32,7 @@ public class LoginTest {
         Thread.sleep(2000);
         driver.findElement(By.cssSelector(".I0VJ4d > div:nth-child(1) > input:nth-child(1)")).sendKeys("se1en1um");
         driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/span/span")).click();
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
     }
 
     @AfterSuite
